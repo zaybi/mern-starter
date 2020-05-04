@@ -1,0 +1,41 @@
+GET http://localhost:4320/
+zack-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6IjVlYWZlYzc3ZDBhOGM3MjdmYjNmYzVjMiIsImlhdCI6MTU4ODYzNDkxMn0.qz-rHhzhVYapFcWY-7KjYNCBVY4Xe1ZBJdGWJ8P-_ss
+
+
+
+
+### post request for user insert
+
+
+POST http://localhost:4320/api/user/register 
+content-type: application/json
+
+{
+    "name": "ejaaz",
+    "email": "ejaaz@gmail.com",
+    "password": "abc1214",
+    "lastname": "zohaib"
+}
+
+
+
+### post for login check 
+
+POST http://localhost:4320/api/user/login
+content-type: application/json
+
+{   
+    "email": "ejaaz@gmail.com",
+    "password" : "abc1214"   
+}
+
+
+### Logout
+
+GET http://localhost:4320/api/user/logout
+content-type: application/json
+zack-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6IjVlYWZlYzc3ZDBhOGM3MjdmYjNmYzVjMiIsImlhdCI6MTU4ODYzNDkxMn0.qz-rHhzhVYapFcWY-7KjYNCBVY4Xe1ZBJdGWJ8P-_ss
+
+
+
+
