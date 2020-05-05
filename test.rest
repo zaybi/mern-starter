@@ -7,7 +7,7 @@ zack-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6IjVlYWZlYzc3ZDBhOGM3Mjdm
 ### post request for user insert
 
 
-POST http://localhost:4320/api/user/register 
+POST https://fierce-caverns-05486.herokuapp.com/api/user/register 
 content-type: application/json
 
 {
