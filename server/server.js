@@ -21,6 +21,10 @@ mongoose.connect( config.mongoURI , { useNewUrlParser: true ,useUnifiedTopology:
 //
 
 
+app.get('/' , (req , res) => {
+  res.send("Welcome to zaybi's first heroku website");
+})
+
 
 // @POST Registring user
 app.post('/api/user/register' , (req ,res) => {
